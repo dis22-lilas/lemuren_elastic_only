@@ -18,7 +18,7 @@ def load_json(directory, id_field):
 
 
 def load_settings(settings_path):
-    with open(settings_path) as json_file:
+    with open(settings_path, encoding='utf-8') as json_file:
         return json.load(json_file)
 
 

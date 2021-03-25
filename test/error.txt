@@ -1,0 +1,356 @@
+{"type": "server", "timestamp": "2021-03-25T13:55:31,392Z", "level": "INFO", "component": "o.e.c.m.MetaDataDeleteIndexService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/SmVZ1n5-TMSi9vChpq178w] deleting index", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:32,418Z", "level": "INFO", "component": "o.e.c.m.MetaDataCreateIndexService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx] creating index, cause [api], templates [], shards [3]/[0], mappings [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:34,551Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:34,556Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:34,801Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:34,829Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:40,452Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:41,037Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:41,234Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:45,162Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:45,680Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:45,685Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,307Z", "level": "DEBUG", "component": "o.e.a.a.i.m.p.TransportPutMappingAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "failed to put mappings on indices [[[idx/-RtqNWEPSNat4vExYpkjtA]]], type [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,318Z", "level": "DEBUG", "component": "o.e.a.b.TransportShardBulkAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx][0] failed to execute bulk item (index) index {[idx][_doc][M606826], source[{\"DBRECORDID\":\"M606826\",\"TITLE\":[\"Two new species of Schoengastia (Acari: Trombiculidae) from New Guinea mammals.\"],\"AUTHOR\":[\"Goff, M L\"],\"SOURCE\":[\"Journal of medical entomology\"],\"VOLUME\":[\"14\"],\"ISSUE\":[\"2\"],\"PAGES\":[\"243-6\"],\"LANGUAGE\":[\"eng\"],\"PUBLDATE\":[\"1977-11-25\"],\"PUBLYEAR\":[\"1977\"],\"PUBLCOUNTRY\":[\"England\"],\"DOI\":[\"10.1093/jmedent/14.2.243\"],\"PISSN\":[\"0022-2585\"],\"DATABASE\":[\"MEDLINE\"],\"MESH\":[\"Animals\",\"Marsupialia/parasitology\",\"Mites/classification\",\"New Guinea\",\"Rodentia/parasitology\",\"Trombiculidae/anatomy & histology\",\"Trombiculidae/classification\"]}]}", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,322Z", "level": "DEBUG", "component": "o.e.a.a.i.m.p.TransportPutMappingAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "failed to put mappings on indices [[[idx/-RtqNWEPSNat4vExYpkjtA]]], type [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,326Z", "level": "DEBUG", "component": "o.e.a.b.TransportShardBulkAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx][2] failed to execute bulk item (index) index {[idx][_doc][M16990419], source[n/a, actual length: [2.5kb], max length: 2kb]}", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,329Z", "level": "DEBUG", "component": "o.e.a.a.i.m.p.TransportPutMappingAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "failed to put mappings on indices [[[idx/-RtqNWEPSNat4vExYpkjtA]]], type [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,333Z", "level": "DEBUG", "component": "o.e.a.b.TransportShardBulkAction", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx][1] failed to execute bulk item (index) index {[idx][_doc][M6104168], source[{\"DBRECORDID\":\"M6104168\",\"TITLE\":[\"Platelet activation and anaesthetics.\"],\"AUTHOR\":[\"Wardle, E N\"],\"SOURCE\":[\"Lancet (London, England)\"],\"VOLUME\":[\"1\"],\"ISSUE\":[\"8182\"],\"PAGES\":[\"1367\"],\"LANGUAGE\":[\"eng\"],\"PUBLDATE\":[\"1980-06-21\"],\"PUBLYEAR\":[\"1980\"],\"PUBLCOUNTRY\":[\"England\"],\"DOI\":[\"10.1016/s0140-6736(80)91822-x\"],\"EISSN\":[\"1474-547X\"],\"PISSN\":[\"0140-6736\",\"0023-7507\"],\"DATABASE\":[\"MEDLINE\"],\"MESH\":[\"Anesthetics/pharmacology\",\"Blood Platelets/drug effects\",\"Humans\"],\"CHEM\":[\"Anesthetics\"]}]}", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" ,
+
+"stacktrace": ["java.lang.IllegalArgumentException: mapper [PUBLDATE] of different type, current_type [text], merged_type [date]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.doMerge(FieldMapper.java:352) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.TextFieldMapper.doMerge(TextFieldMapper.java:878) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:339) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.FieldMapper.merge(FieldMapper.java:55) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.doMerge(ObjectMapper.java:472) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.doMerge(RootObjectMapper.java:276) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.ObjectMapper.merge(ObjectMapper.java:443) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.RootObjectMapper.merge(RootObjectMapper.java:271) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.Mapping.merge(Mapping.java:91) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.index.mapper.DocumentMapper.merge(DocumentMapper.java:321) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:282) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:238) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [elasticsearch-7.4.2.jar:7.4.2]",
+
+"at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]",
+
+"at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]",
+
+"at java.lang.Thread.run(Thread.java:830) [?:?]"] }
+
+{"type": "server", "timestamp": "2021-03-25T13:55:46,357Z", "level": "INFO", "component": "o.e.c.m.MetaDataMappingService", "cluster.name": "docker-cluster", "node.name": "34fc2d14a510", "message": "[idx/-RtqNWEPSNat4vExYpkjtA] update_mapping [_doc]", "cluster.uuid": "U8eih5wNT92nh000aHGT4g", "node.id": "Sa-AL5aqSfa-ebGJySx75g" }
+
+/usr/local/lib/python3.6/site-packages/werkzeug/filesystem.py:60: BrokenFilesystemWarning: Detected a misconfigured UNIX filesystem: Will use UTF-8 as filesystem encoding instead of 'ascii'
+
+BrokenFilesystemWarning,
+
+172.17.0.1 - - [25/Mar/2021 13:55:51] "GET /index HTTP/1.1" 500 -
+
