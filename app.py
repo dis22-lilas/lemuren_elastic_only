@@ -18,7 +18,7 @@ def test():
 @app.route('/index', methods=["GET"])
 def index():
     ranker.index()
-    recommender.index()
+   #recommender.index()
     return 'Indexing done!', 200
 
 

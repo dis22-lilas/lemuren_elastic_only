@@ -11,7 +11,7 @@ data_path = os.path.join('data')
 index_path = os.path.join('index')
 
 def build():
-    client.images.build(path="../", tag=img_tag)
+    client.images.build(path="../", tag=img_tag, rm=True)
     print('Container is built.')
 
 

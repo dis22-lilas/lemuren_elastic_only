@@ -139,6 +139,9 @@
             "PUBLYEAR": {
                 "type": "text"
             },
+            "PUBLDATE": {
+                "type": "text"
+            },
             "query": {
                 "type": "text",
                 "analyzer": "query_analyzer"

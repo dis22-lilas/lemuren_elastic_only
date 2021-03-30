@@ -82,8 +82,9 @@ class Ranker(object):
 
 
 class Recommender(object):
-
+    
     def __init__(self):
+        #self.INDEX = 'idx_recommender'
         self.index_documents = 'documents'
         self.index_documents_settings_path = os.path.join('index_settings', 'gesis-search_documents_settings.json')
         self.documents_path = './data/gesis-search/documents'
