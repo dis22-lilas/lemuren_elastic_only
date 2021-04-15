@@ -1,0 +1,196 @@
+{
+    "settings": {
+        "number_of_shards": 9,
+        "number_of_replicas": 0,
+
+        "analysis": {
+            "filter": {
+                "acronym": {
+                    "type": "word_delimiter",
+                    "catenate_all": true,
+                    "generate_word_parts": false,
+                    "generate_number_parts": false,
+                    "preserve_original": true
+                },
+                "my_snow":{
+                    "type": "snowball",
+                    "language": "English"
+                },
+                "english_stemmer" : {
+                    "type" : "stemmer",
+                    "language" : "english"
+                },
+                "german_stemmer": {
+                    "type": "stemmer",
+                    "language": "german"
+                },
+                "german_stop": {
+                    "type": "stop",
+                    "language": "_german_"
+                },
+              "keyword_list": {
+                "type": "keyword_marker",
+                "ignore_case": true,
+                "keywords": ["Vitamin D", "covid-19", "sars-cov-2", "sars-cov", "2019-ncov",
+                         "united states", "united kingdom", "hong kong", "united arab emirates",
+                         "non-social", "african-american",
+                          "mrna ", "ace inhibitor", "enzyme inhibitors", "blood type", "angiotensin-converting", "clinical signs", "super spreaders", "hand sanitizer", "alcohol sanitizer"]
+                 },
+                "ngram_filter": {
+                    "type":     "ngram",
+                    "min_gram": 3,
+                    "max_gram": 3,
+                    "token_chars": [
+                        "letter",
+                        "punctuation",
+                        "symbol"
+                    ]
+                }
+            },
+            "char_filter": {
+                "covid_char_filter": {
+                "type": "mapping",
+                            "mappings": [
+                                "$=> dollar",
+                                "€=> euro",
+                                "£=> pound",
+                                "%=> percentage"
+                                ]
+                }
+             },
+            "analyzer": {
+                "covid_analyzer": {
+                    "type": "custom",
+                    "tokenizer": "standard",
+                    "stopwords": "_english",
+                    "filter": ["acronym",
+                               "lowercase",
+                                "keyword_list",
+                               "stop",
+                               "asciifolding"
+                               ],
+                    "char_filter": ["covid_char_filter"]
+                },
+                "english_analyzer": {
+                    "type": "custom",
+                    "stopwords": "_english",
+                    "tokenizer": "standard",
+                    "filter": ["lowercase","stop","english_stemmer"],
+                    "char_filter": ["covid_char_filter"]
+                },
+                "german_analyzer": {
+                    "type": "custom",
+                    "tokenizer": "standard",
+                    "filter": ["lowercase","german_normalization","german_stemmer","german_stop"]
+                },
+                "ngram_analyzer": {
+                    "type":      "custom",
+                    "tokenizer": "standard",
+                    "filter":   [
+                        "lowercase",
+                        "ngram_filter"
+                    ]
+                },
+                "query_analyzer":{
+                    "type": "custom",
+                    "tokenizer": "standard",
+                    "filter": ["lowercase",
+                                "keyword_list",
+                               "stop",
+                               "asciifolding"
+                               ],
+                    "char_filter": ["covid_char_filter"]
+                    }
+                }
+        },
+    "similarity" : {
+               "BM25_similarity": {
+                    "type": "BM25",
+                    "k1": "1.2",
+                    "b": "0.75"
+                  },
+                  "DFR_similarity": {
+                    "type": "DFR",
+                    "basic_model": "g",
+                    "after_effect": "b",
+                    "normalization": "z" 
+                  },
+                  "LMJelinekMercer_short": {
+                    "type": "LMJelinekMercer",
+                    "lambda": "0.1"
+                  },
+                 "LMJelinekMercer_long": {
+                    "type": "LMJelinekMercer",
+                    "lambda": "0.7" 
+                  },
+                "TFIDF": {
+                    "type": "scripted",
+                    "script": {
+                    "source": "double tf = Math.sqrt(doc.freq); double idf = Math.log((field.docCount+1.0)/(term.docFreq+1.0)) + 1.0; double norm = 1/Math.sqrt(doc.length); return query.boost * tf * idf * norm;"
+                    }
+                }
+        }
+    },
+
+    "mappings": {
+        "properties": {
+            "DBRECORDID": {
+                "type": "text",
+                "index": true
+            },
+            "LANGUAGE": {
+                "type": "keyword",
+                "index": true
+            },
+            "TITLE": { 
+                "type": "text",
+                "fields": {
+                    "analysis": { 
+                        "type":     "text",
+                        "analyzer": "covid_analyzer",
+                        "similarity": "LMJelinekMercer_short"
+                    },
+                    "en": { 
+                        "type":     "text",
+                        "analyzer": "english_analyzer",
+                        "similarity": "LMJelinekMercer_short"
+                    },
+                    "ger": { 
+                        "type":     "text",
+                        "analyzer": "german_analyzer",
+                        "similarity": "LMJelinekMercer_short"
+                    },
+                    "keyword": { 
+                        "type":     "keyword"
+                    }
+                }
+            },
+            "ABSTRACT": {
+                "type": "text",
+                "analyzer": "covid_analyzer",
+                "similarity": "DFR_similarity",
+                "index": true
+            },
+            "MESH": {
+                "type": "text",
+                "index": true
+            },
+            "CHEM": {
+                "type": "text",
+                "index": true
+            },
+            "KEYWORDS": {
+                "type": "text",
+                "index": true
+            },
+            "PUBLYEAR": {
+                "type": "text",
+                "index": false
+            },
+            "PUBLDATE": {
+                "type": "text",
+                "index": false
+            }
+        } 
+    } 
+}

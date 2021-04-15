@@ -1,0 +1,19 @@
+{
+  "description": "copies the text data into a specific field depending on the language field",
+  "processors": [
+		{
+      "set": {
+        "if": "ctx.LANGUAGE == 'eng'",
+        "field": "TITLE_EN",
+        "value": "{{TITLE}}"
+      }
+    },
+	{
+      "set": {
+        "if": "ctx.LANGUAGE == 'ger'",
+        "field": "TITLE_GER",
+        "value": "{{TITLE}}"
+      }
+    }
+   ]
+}

@@ -3,3 +3,5 @@ elasticsearch-dsl
 flask
 jsonlines
 requests
+google_trans_new
+pandas
