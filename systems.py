@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import jsonlines
 from elasticsearch import Elasticsearch, helpers
@@ -92,6 +93,7 @@ class Ranker(object):
             #if ' AND ' in query and not ' OR ' in query:  # wahrscheinlich nur query_string besser
             #    operator = 'AND'
             query_raw = query
+            query = re.sub(r'[^\w\d\s]+', '', query)
             query = query.replace(" AND ", " +++++ ")
             query = query.replace(" OR ", " ||||| ")
 
@@ -112,6 +114,7 @@ class Ranker(object):
             query_de = query_de.replace("+,+,+,+,+", "AND")
             query_de = query_de.replace("|||||", "OR")
 
+            query_raw = re.sub(r'[^\w\d\s]+', '', query_raw)
             query_raw = query_raw.replace("+,+,+,+,+", "AND")
             query_raw = query_raw.replace("|||||", "OR")
 
