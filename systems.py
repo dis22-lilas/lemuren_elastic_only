@@ -137,7 +137,7 @@ class Ranker(object):
         return {
             'page': page,
             'rpp': rpp,
-            'query': [query_raw,query_de,query_eng],
+            'query': query,
             'itemlist': itemlist,
             'num_found': len(itemlist)
         }
