@@ -111,14 +111,14 @@ class Ranker(object):
             #query_tokenized_ori = tf.tokenize_string_sci(query)
             #query_tokenized_eng = tf.tokenize_string_sci(query_eng)
 
-            query_de = query_de.replace("+,+,+,+,+", "AND")
+            query_de = query_de.replace("+++++", "AND")
             query_de = query_de.replace("|||||", "OR")
 
             query_raw = re.sub(r'[^\w\d\s]+', '', query_raw)
-            query_raw = query_raw.replace("+,+,+,+,+", "AND")
+            query_raw = query_raw.replace("+++++", "AND")
             query_raw = query_raw.replace("|||||", "OR")
 
-            query_eng = query_eng.replace("+,+,+,+,+", "AND")
+            query_eng = query_eng.replace("+++++", "AND")
             query_eng = query_eng.replace("|||||", "OR")
             es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
@@ -137,7 +137,7 @@ class Ranker(object):
         return {
             'page': page,
             'rpp': rpp,
-            'query': query,
+            'query': [query_raw,query_de,query_eng],
             'itemlist': itemlist,
             'num_found': len(itemlist)
         }
